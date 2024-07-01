@@ -3,7 +3,8 @@
   "description": "⏱️ Cron manager",
   "license": "MIT",
   "require": {
-    "php": "^8.2"
+    "php": "^8.2",
+    "mammatus/kubernetes-contracts": "dev-main"
   },
   "require-dev": {
     "wyrihaximus/async-test-utilities": "^8.0.1"
