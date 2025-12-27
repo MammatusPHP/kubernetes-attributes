@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10282e0bc9e686aa00a902cb0a2ef309",
+    "content-hash": "7448df7b7ce068de3a245dff86717fcb",
     "packages": [
         {
             "name": "mammatus/kubernetes-contracts",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MammatusPHP/kubernetes-contracts.git",
-                "reference": "1afad0371601808e5ec104f63790dad656f0184a"
+                "reference": "3dce40c02dfef7e84bcf41a56232ad69fa82b3e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MammatusPHP/kubernetes-contracts/zipball/1afad0371601808e5ec104f63790dad656f0184a",
-                "reference": "1afad0371601808e5ec104f63790dad656f0184a",
+                "url": "https://api.github.com/repos/MammatusPHP/kubernetes-contracts/zipball/3dce40c02dfef7e84bcf41a56232ad69fa82b3e0",
+                "reference": "3dce40c02dfef7e84bcf41a56232ad69fa82b3e0",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
             "description": "Kubernetes contracts",
             "support": {
                 "issues": "https://github.com/MammatusPHP/kubernetes-contracts/issues",
-                "source": "https://github.com/MammatusPHP/kubernetes-contracts/tree/1.0.0"
+                "source": "https://github.com/MammatusPHP/kubernetes-contracts/tree/1.1.0"
             },
             "funding": [
                 {
@@ -47,7 +47,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-15T13:08:32+00:00"
+            "time": "2025-12-27T18:25:41+00:00"
         }
     ],
     "packages-dev": [
