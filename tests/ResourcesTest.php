@@ -10,9 +10,7 @@ use WyriHaximus\TestUtilities\TestCase;
 
 final class ResourcesTest extends TestCase
 {
-    /**
-     * @test
-     */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function jsonLowResources(): void
     {
         $resources = new Resources(0.1, 0.5);
@@ -20,9 +18,7 @@ final class ResourcesTest extends TestCase
         self::assertSame('{"type":"container","helper":"mammatus.container.resources","arguments":{"cpu":"100m","memory":"512Mi"}}', \Safe\json_encode($resources));
     }
 
-    /**
-     * @test
-     */
+    #[\PHPUnit\Framework\Attributes\Test]
     public function jsonHighResources(): void
     {
         $resources = new Resources(13.371337, 128.256);
