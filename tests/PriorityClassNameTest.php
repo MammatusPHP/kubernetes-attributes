@@ -2,16 +2,17 @@
 
 declare(strict_types=1);
 
-
 namespace Mammatus\Tests\Kubernetes\Attributes;
 
 use Mammatus\Kubernetes\Attributes\PriorityClassName;
-use Mammatus\Kubernetes\Attributes\Resources;
+use PHPUnit\Framework\Attributes\Test;
 use WyriHaximus\TestUtilities\TestCase;
+
+use function json_encode;
 
 final class PriorityClassNameTest extends TestCase
 {
-    #[\PHPUnit\Framework\Attributes\Test]
+    #[Test]
     public function json(): void
     {
         $resources = new PriorityClassName('rock-bottom');

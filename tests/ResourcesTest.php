@@ -2,27 +2,29 @@
 
 declare(strict_types=1);
 
-
 namespace Mammatus\Tests\Kubernetes\Attributes;
 
 use Mammatus\Kubernetes\Attributes\Resources;
+use PHPUnit\Framework\Attributes\Test;
 use WyriHaximus\TestUtilities\TestCase;
+
+use function Safe\json_encode;
 
 final class ResourcesTest extends TestCase
 {
-    #[\PHPUnit\Framework\Attributes\Test]
+    #[Test]
     public function jsonLowResources(): void
     {
         $resources = new Resources(0.1, 0.5);
 
-        self::assertSame('{"type":"container","helper":"mammatus.container.resources","arguments":{"cpu":"100m","memory":"512Mi"}}', \Safe\json_encode($resources));
+        self::assertSame('{"type":"container","helper":"mammatus.container.resources","arguments":{"cpu":"100m","memory":"512Mi"}}', json_encode($resources));
     }
 
-    #[\PHPUnit\Framework\Attributes\Test]
+    #[Test]
     public function jsonHighResources(): void
     {
         $resources = new Resources(13.371337, 128.256);
 
-        self::assertSame('{"type":"container","helper":"mammatus.container.resources","arguments":{"cpu":"13372m","memory":"131335Mi"}}', \Safe\json_encode($resources));
+        self::assertSame('{"type":"container","helper":"mammatus.container.resources","arguments":{"cpu":"13372m","memory":"131335Mi"}}', json_encode($resources));
     }
 }
