@@ -15,6 +15,8 @@ final readonly class Resources implements AddOn, AddOn\Container
     /**
      * @param non-negative-int|float $cpu    Non-negative value in CPU cores
      * @param non-negative-int|float $memory Non-negative value in GigaBytes
+     *
+     * @api
      */
     public function __construct(
         public int|float $cpu,
