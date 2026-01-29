@@ -10,6 +10,7 @@ use Mammatus\Kubernetes\Contracts\AddOn;
 #[Attribute(Attribute::TARGET_CLASS)]
 final readonly class PriorityClassName implements AddOn, AddOn\Pod
 {
+    /** @api */
     public function __construct(
         public string $priorityClassName,
     ) {
