@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90a3c44f7f6ad5b5e1d774028b2ea0f4",
+    "content-hash": "fa6dc0889a122c5f7549e3505f1a939f",
     "packages": [
         {
             "name": "mammatus/kubernetes-contracts",
@@ -8832,16 +8832,16 @@
         },
         {
             "name": "wyrihaximus/makefiles",
-            "version": "0.8.1",
+            "version": "0.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/Makefiles.git",
-                "reference": "9b196acd6e6861df74edd3e40895b8a40e524f23"
+                "reference": "f0bb9dd9f34f913c5e0e63e3898ef55921db4ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/Makefiles/zipball/9b196acd6e6861df74edd3e40895b8a40e524f23",
-                "reference": "9b196acd6e6861df74edd3e40895b8a40e524f23",
+                "url": "https://api.github.com/repos/WyriHaximus/Makefiles/zipball/f0bb9dd9f34f913c5e0e63e3898ef55921db4ae6",
+                "reference": "f0bb9dd9f34f913c5e0e63e3898ef55921db4ae6",
                 "shasum": ""
             },
             "require": {
@@ -8853,7 +8853,7 @@
                 "infection/infection": "<0.32.0"
             },
             "require-dev": {
-                "wyrihaximus/test-utilities": "^11.0.0"
+                "wyrihaximus/test-utilities": "^12.0.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -8877,7 +8877,7 @@
             "description": "🧱 Makefile building blocks",
             "support": {
                 "issues": "https://github.com/WyriHaximus/Makefiles/issues",
-                "source": "https://github.com/WyriHaximus/Makefiles/tree/0.8.1"
+                "source": "https://github.com/WyriHaximus/Makefiles/tree/0.8.3"
             },
             "funding": [
                 {
@@ -8885,7 +8885,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-19T18:00:22+00:00"
+            "time": "2026-02-04T10:51:36+00:00"
         },
         {
             "name": "wyrihaximus/phpstan-rules-wrapper",
