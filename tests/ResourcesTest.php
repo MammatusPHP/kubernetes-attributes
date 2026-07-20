@@ -8,7 +8,7 @@ use Mammatus\Kubernetes\Attributes\Resources;
 use PHPUnit\Framework\Attributes\Test;
 use WyriHaximus\TestUtilities\TestCase;
 
-use function Safe\json_encode;
+use function json_encode;
 
 final class ResourcesTest extends TestCase
 {
