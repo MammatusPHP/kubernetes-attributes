@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d1766a71f75c4b2b6a8a17fb3db5f1d",
+    "content-hash": "c0c30e85a6b9db16d6d2f79f8010ab2e",
     "packages": [
         {
             "name": "mammatus/kubernetes-contracts",
